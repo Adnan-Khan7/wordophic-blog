@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169400093-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-169400093-2');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordophic</title>
+    <!-- Font Awesome icons-->
+    <link rel="stylesheet" href="./all.css">
+
+    <!-----------------Owl-Carousel-------->
+    <link rel="stylesheet" href="./owl.carousel.min.css">
+    <link rel="stylesheet" href="./owl.theme.default.min.css">
+
+    <!-------------------AOS Library--------------->
+    <link rel="stylesheet" href="./aos.css">
+
+    <!-- Custom Style-->
+    <link rel="stylesheet" href="./style.css">
+
+
+</head>
+
+<style>
+    .dropbtn {
+        font-size: 16px;
+        border: none;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: black;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px transparent;
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: flex;
+    }
+    
+    .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+    }
+    
+    .screen {
+        padding-bottom: 50px;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .screen {
+            padding-bottom: 500px;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    }
+    /* @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+        .screen {
+            padding-bottom: 50px;
+        }
+    } */
+    /* @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+        .screen {
+            padding-bottom: 50px;
+        }
+    } */
+</style>
+<script type="text/javascript">
+    var i = 0;
+
+    function read() {
+        if (!i) {
+            document.getElementById("more").style.display = "inline";
+            document.getElementById("dots").style.display = "none";
+            document.getElementById("button").style.display = "inline";
+            document.getElementById("button").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more").style.display = "none";
+            document.getElementById("dots").style.display = "inline";
+            document.getElementById("button").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+    function read1() {
+        if (!i) {
+            document.getElementById("more1").style.display = "inline";
+            document.getElementById("dots1").style.display = "none";
+            document.getElementById("button1").style.display = "inline";
+            document.getElementById("button1").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more1").style.display = "none";
+            document.getElementById("dots1").style.display = "inline";
+            document.getElementById("button1").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+    function read2() {
+        if (!i) {
+            document.getElementById("more2").style.display = "inline";
+            document.getElementById("dots2").style.display = "none";
+            document.getElementById("button2").style.display = "inline";
+            document.getElementById("button2").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more2").style.display = "none";
+            document.getElementById("dots2").style.display = "inline";
+            document.getElementById("button2").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+    function read3() {
+        if (!i) {
+            document.getElementById("more3").style.display = "inline";
+            document.getElementById("dots3").style.display = "none";
+            document.getElementById("button3").style.display = "inline";
+            document.getElementById("button3").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more3").style.display = "none";
+            document.getElementById("dots3").style.display = "inline";
+            document.getElementById("button3").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+    function read4() {
+        if (!i) {
+            document.getElementById("more4").style.display = "inline";
+            document.getElementById("dots4").style.display = "none";
+            document.getElementById("button4").style.display = "inline";
+            document.getElementById("button4").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more4").style.display = "none";
+            document.getElementById("dots4").style.display = "inline";
+            document.getElementById("button4").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+    function read5() {
+        if (!i) {
+            document.getElementById("more5").style.display = "inline";
+            document.getElementById("dots5").style.display = "none";
+            document.getElementById("button5").style.display = "inline";
+            document.getElementById("button5").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more5").style.display = "none";
+            document.getElementById("dots5").style.display = "inline";
+            document.getElementById("button5").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+    function read6() {
+        if (!i) {
+            document.getElementById("more6").style.display = "inline";
+            document.getElementById("dots6").style.display = "none";
+            document.getElementById("button6").style.display = "inline";
+            document.getElementById("button6").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more6").style.display = "none";
+            document.getElementById("dots6").style.display = "inline";
+            document.getElementById("button6").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+    function read7() {
+        if (!i) {
+            document.getElementById("more7").style.display = "inline";
+            document.getElementById("dots7").style.display = "none";
+            document.getElementById("button7").style.display = "inline";
+            document.getElementById("button7").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more7").style.display = "none";
+            document.getElementById("dots7").style.display = "inline";
+            document.getElementById("button7").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+    function read8() {
+        if (!i) {
+            document.getElementById("more8").style.display = "inline";
+            document.getElementById("dots8").style.display = "none";
+            document.getElementById("button8").style.display = "inline";
+            document.getElementById("button8").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more8").style.display = "none";
+            document.getElementById("dots8").style.display = "inline";
+            document.getElementById("button8").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+    function read9() {
+        if (!i) {
+            document.getElementById("more9").style.display = "inline";
+            document.getElementById("dots9").style.display = "none";
+            document.getElementById("button9").style.display = "inline";
+            document.getElementById("button9").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more9").style.display = "none";
+            document.getElementById("dots9").style.display = "inline";
+            document.getElementById("button9").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+    function read10() {
+        if (!i) {
+            document.getElementById("more10").style.display = "inline";
+            document.getElementById("dots10").style.display = "none";
+            document.getElementById("button10").style.display = "inline";
+            document.getElementById("button10").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more10").style.display = "none";
+            document.getElementById("dots10").style.display = "inline";
+            document.getElementById("button10").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+    function read11() {
+        if (!i) {
+            document.getElementById("more11").style.display = "inline";
+            document.getElementById("dots11").style.display = "none";
+            document.getElementById("button11").style.display = "inline";
+            document.getElementById("button11").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more11").style.display = "none";
+            document.getElementById("dots11").style.display = "inline";
+            document.getElementById("button11").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+    function read12() {
+        if (!i) {
+            document.getElementById("more12").style.display = "inline";
+            document.getElementById("dots12").style.display = "none";
+            document.getElementById("button12").style.display = "inline";
+            document.getElementById("button12").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more12").style.display = "none";
+            document.getElementById("dots12").style.display = "inline";
+            document.getElementById("button12").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+    function read13() {
+        if (!i) {
+            document.getElementById("more13").style.display = "inline";
+            document.getElementById("dots13").style.display = "none";
+            document.getElementById("button13").style.display = "inline";
+            document.getElementById("button13").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more13").style.display = "none";
+            document.getElementById("dots13").style.display = "inline";
+            document.getElementById("button13").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+</script>
+
+<body>
+
+
+    <!------------------Navigation---------->
+    <nav class="nav screen">
+
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="./index.html" class="textgray">WORDOPHIC</a>
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+
+                </div>
+            </div>
+            <div>
+                <ul class="nav-items">
+                    <li class="nav-link">
+                        <a href="./index.html">Home</a>
+                    </li>
+
+                    <!-- <li class="nav-link">
+                        <a href="#">Archive</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Pages</a>
+                    </li> -->
+                    <li class="nav-link">
+                        <div class="dropdown">
+                            <a class="dropbtn" href="#">Categories</a>
+                            <div class="dropdown-content">
+                                <a href="./learning.html">Learning</a>
+                                <a href="./nutrition.html">Nutrition</a>
+                                <a href="./psychology.html">Psychology</a>
+                                <a href="./fashion.html">Fashion</a>
+                                <a href="./health.html">Health</a>
+                                <a href="./entertainment.html">Entertainment</a>
+
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="nav-link">
+                        <div class="dropdown">
+                            <a class="dropbtn" href="#">Contact Us</a>
+                            <div class="dropdown-content">
+                                <a href="https://m.facebook.com/adky77">Adnan Khan</a>
+                                <a href="https://instagram.com/3man_shaikh?igshid=dxk03f4yyxs6">Eman Sheikh</a>
+
+
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="social text-gray">
+
+            </div>
+        </div>
+    </nav>
+
+    <!--------x---------Navigation------x--->
+    <!-------- Main Site Section--------------->
+    <main>
+
+        <!-------------Site Title------->
+
+        <section class="site-title">
+
+            <div class="site-background" data-aos="fade-up" data-aos-delay="100">
+
+                <h1>Health</h1>
+
+            </div>
+        </section>
+        <!----x--------Site Title--x---->
+
+        <!------------------Blog Carousel------------->
+
+        <!---------this is the place where you edit posts, please do not paste code copied from index file here-->
+
+
+        <section class="container">
+            <div class="site-content">
+                <div class="posts">
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+
+
+
+
+
+
+
+
+                        <!--------Post starts here-->
+<div class="post-image">
+    <div>
+        <img src="./smoke 2.jpg" class="img" alt="blog2">
+    </div>
+    <div class="post-info flex-row">
+        <span>&nbsp;&nbsp;Posted by: Eman Shaikh </span>
+        <span>&nbsp;&nbsp;August 31,2020</span>
+        <!--<span>7 comments</span>-->
+    </div>
+</div>
+<div class="post-title">
+    <a href="#"> Smoking</a>
+    <p>
+        Smoking is a serious concern prevailing in the world. The physical cravings of smoking include tension, anxiety and throat or belly tightness etc. that induce the desire to smoke. But smoking actually <span id="dots9">...</span>
+        <span id="more9" style="display: none;">  causes 90% of the deaths than caused by any other source like HIV, motorcycle injuries and use of illegal drugs. 80% of the deaths are due to Chronic Obstructive Pulmonary Disease (caused by smoking) and 2 to 4 times deaths occur due to coronary heart disease and stroke. Whereas, the other harms include the low fertility rate, blood and cervical cancer, miscarriage and birth defects due to affected sperms in man. On the flip side, women-smokers usually face the problems like stillbirth, preterm, low birth weight, and orofacial clefts in infants. Moreover, bones are severely weakened due to smoking. Additional signs include infected gums, cataracts, type 2 diabetes mellitus, early menopause, rheumatoid arthritis, pneumonia, skin problems, ulcers, inflammation, high cholesterol, loss of appetite, bad breath, and loss of immunity. There also develops the risk of death, most smokers fail to reach their 65 years of age. To sum it up, lungs have magical ability to cure, but only if you stop smoking. Hence, it is important to either reduce smoking or entirely eliminate it. Nicotine takes 72 hours to get out of your body, thus, a person can escape from his cravings for nicotine in 12 days. Occasional smokers are exposed to less harm. While, a heavy smoker who quits smoking later halves his risk of death and rejuvenates his body organs back to normal within 5-10 years. 
+
+              </i> </span>
+        <button class="btn btn-outline-primary" id="button9" onclick="read9()">Read
+            More</button>
+            
+
+    </p>
+    <hr>
+ </div>
+
+
+  <!-----Your post ends here---->
+
+
+
+
+
+
+
+
+
+
+
+
+                        <!--------Post starts here-->
+<div class="post-image">
+    <div>
+        <img src="./rise and shinwe.jpg" class="img" alt="blog2">
+    </div>
+    <div class="post-info flex-row">
+        <span>&nbsp;&nbsp;Posted by: Eman Shaikh </span>
+        <span>&nbsp;&nbsp;August 27,2020</span>
+        <!--<span>7 comments</span>-->
+    </div>
+</div>
+<div class="post-title">
+    <a href="#"> An ideal morning regime</a>
+    <p>
+        It is always important to sleep at the right time and begin your day with enthusiasm and deep motivation. Try getting seven to eight hours of sleep at night. Addict yourself <span id="dots8">...</span>
+        <span id="more8" style="display: none;"> to getting up as soon as your alarm goes off.  There is truly no sound worse than an alarm clock. When you hit the snooze button and wake up ten to twenty minutes later, you disturb your sleep-wake cycle which makes you disoriented. Besides, exposing yourself to sunlight exactly after you open your eyes is barely tough. Yet, it is important to permit your body for efficient functioning like activating hormones and promoting digestion, knowing that it is day time. Otherwise, it disturbs your natural cycle of the body. Drink a glass of luke-warm water exactly after you rise and shine so that you could have smooth digestion throughout the day. It flushes toxins from your gut, and burns more calories throughout the day. Hence, it helps you to lose weight. It can be even more efficient if you squeeze a lemon in the cup of water that makes you a little fuller, preventing you from taking a heavy breakfast. Furthermore, research shows that drinking more water can help you fight chronic kidney diseases and other bodily issues. Overall, the more water you drink, the more effectively your body functions. In addition, start your day with a mobilizing exercise which can warm you up, as it is obviously a great way for warming up and lubricating your joints. It is always better to have a more nutritious breakfast rather than sweet treats. Adding fruits to your bowl of Oats (being rich in proteins, vitamins, minerals and complex carbohydrates) will always help your body in a healthy digestion process as oats keep your blood-sugar level steady. Thus, you can apt for fruits like blueberries, raspberries and strawberries, as they are less in sugar than other fruits, and rich in antioxidants. If you are less likely to have sweet breakfast, you can go for protein sources like egg and milk. 
+
+              </i> </span>
+        <button class="btn btn-outline-primary" id="button8" onclick="read8()">Read
+            More</button>
+            
+
+    </p>
+    <hr>
+ </div>
+
+
+  <!-----Your post ends here---->
+
+
+
+
+
+
+<!--------Post starts here-->
+<div class="post-image">
+    <div>
+        <img src="./immunity.jpg" class="img" alt="blog2">
+    </div>
+    <div class="post-info flex-row">
+        <span>&nbsp;&nbsp;Posted by: Eman Shaikh </span>
+        <span>&nbsp;&nbsp;August 26,2020</span>
+        <!--<span>7 comments</span>-->
+    </div>
+</div>
+<div class="post-title">
+    <a href="#"> How to boost Immunity</a>
+    <p>
+        Do you often catch cold? Are you a prey of stress, upset-digestion, frequent infections, fatigue, and sluggish healing of wounds? Well, these all are the signs and symptoms <span id="dots7">...</span>
+        <span id="more7" style="display: none;"> of your immunity-maladies. Thus, in order to strengthen your defense system, you need to supervise a few rules in your life. Looking forward to it, getting enough sleep is the savior of your immunity. It is necessary not to disturb your circadian-rhythm, or your body’s natural sleep-wake cycle. Moreover, it is crucial to get an enough amount of antioxidants to combat free-radicals (causing inflammation). The best source of antioxidants is eating an adequate amount of whole plant foods. Serve yourself with the healthy fats (Omega-3 fatty acids) like salmon or olive oil. Do include vitamin A, C, Zinc and Garlic in your diet. Remember to add fermented foods in your food-style. Limit sugars or carbs to your diet as they lead to obesity and cardiovascular diseases that affect the immune system. Make sure to engage yourself in exercise, journaling, yoga and other mindfulness exercises (they can cope you up with stress), and always stay hydrated. Additionally, grape fruits, oranges, pears, apples, pineapples, avocados and blueberries are some of the fruits that never fail to boost your immunity-level. Furthermore, quitting smoking and following all the necessary hygiene protocols will always maintain your health. To conclude, healthy lifestyle and eating habits are the powerful tools to boost your immune system. 
+
+              </i> </span>
+        <button class="btn btn-outline-primary" id="button7" onclick="read7()">Read
+            More</button>
+            
+
+    </p>
+    <hr>
+ </div>
+
+
+  <!-----Your post ends here---->
+
+
+
+
+
+
+
+
+
+
+                         <!--------Post starts here-->
+ <div class="post-image">
+    <div>
+        <img src="./allergens.jpg" class="img" alt="blog2">
+    </div>
+    <div class="post-info flex-row">
+        <span>&nbsp;&nbsp;Posted by: Eman Shaikh </span>
+        <span>&nbsp;&nbsp;August 13,2020</span>
+        <!--<span>7 comments</span>-->
+    </div>
+</div>
+<div class="post-title">
+    <a href="#">How to Tackle Food Allergies</a>
+    <p>
+        Food allergy is the hypersensitive immune response of the body due to certain food allergens. The most commonly associated allergy causing foods are fish,   <span id="dots6">...</span>
+        <span id="more6" style="display: none;"> shellfish, milk, wheat, tree nuts, peanuts, egg and soy. Nowadays, the rate of food allergy has been inclined to level up. As an allergy can be life threatening, visit your nutritionist if you face food discomfort. Food allergy refers to an immune system reaction affecting different body organs. On the flip side, food intolerance has less serious signs and does not involve the immune system. Therefore, it is your task to identify and track the food you take to pinpoint the problem. Once you pinpoint the upsetting food, you should immediately stop consuming that. Play the detective role of yours; make a diet plan or food diary when symptoms occur, and identify the causative food and its allergy symptoms. Moreover, limit those foods which do not upset your gut. You can try food options as well, and acknowledge whether they are right for your stomach or not. You can also help yourself in exploring the diet you take regularly, if signs and symptoms are continual. However, it is necessary to consult your dietician for your diet in order to enjoy a healthy life.   </i> </span>
+        <button class="btn btn-outline-primary" id="button6" onclick="read6()">Read
+            More</button>
+            
+
+    </p>
+    <hr>
+ </div>
+
+
+  <!-----Your post ends here---->
+
+
+
+
+                         <!--------Post starts here-->
+ <div class="post-image">
+    <div>
+        <img src="./dermatology..jpg" class="img" alt="blog2">
+    </div>
+    <div class="post-info flex-row">
+        <span>&nbsp;&nbsp;Posted by: Eman Shaikh </span>
+        <span>&nbsp;&nbsp;August 12,2020</span>
+        <!--<span>7 comments</span>-->
+    </div>
+</div>
+<div class="post-title">
+    <a href="#">DERMATOLOGY ON ITS WAY</a>
+    <p>
+        Naturopathy has now, treated the most of the dermatological problems like scars and acne or uneven skin tone. What you   <span id="dots5">...</span>
+        <span id="more5" style="display: none;"> all need to do is to keep yourself hydrated and increase your intake of Vitamin C (as it promotes radiant skin) and glutathione. When you use a broad-spectrum sunscreen with SPF 30 or higher, it can: Reduce your risk of developing skin cancer. Also, if you tend to sweat more in this hot weather than try using the gel based sunblock. Whenever you apply makeup or thread your skin, ensure using a moisturizer at first and after doing so. In case, if the moisturizers don’t work with your skin type then one can apt the laser treatment. However, blueberries, broccoli, guava, oranges, strawberries and sweet potatoes can help blemishes heal properly up to a fabulous skin. Moreover, they help you deal with anti-aging methods. Adding the few drops of squeezed lemon into water can increase your immunity. Therefore, milk cream mask is also another naturopath treatment for having a glowing skin within 7 days.  </i> </span>
+        <button class="btn btn-outline-primary" id="button5" onclick="read5()">Read
+            More</button>
+            
+
+    </p>
+    <hr>
+ </div>
+
+
+  <!-----Your post ends here---->
+
+
+                        <!--------Post starts here-->
+<div class="post-image">
+    <div>
+        <img src="./healthy mental habits.png" class="img" alt="blog2">
+    </div>
+    <div class="post-info flex-row">
+        <span>&nbsp;&nbsp;Posted by: Eman Shaikh </span>
+        <span>&nbsp;&nbsp;August 11,2020</span>
+        <!--<span>7 comments</span>-->
+    </div>
+</div>
+<div class="post-title">
+    <a href="#">Healthy Mental Habits</a>
+    <p>
+         It is necessary to keep your brain active, stimulated and growing. The more we engage<span id="dots4">...</span>
+        <span id="more4" style="display: none;">  with brain, the more it functions efficiently. Just as it is said, “use it or lose it.” For instance, the more we use our body part the stronger it becomes. Just as the developed biceps of blacksmith. Similarly, it has been researched that lacking engagement of your brain for longer periods may contribute to Dementia or Alzheimer’s disease no matter how much you are carrying the strains of stress of your daily life.  Reading is one of the healthiest activities one can benefit form. It is because books permit you to enjoy the process of a fruitful encounter with another world of your favorite genre as you develop a bond with the writing. These bits of information called knowledge can never be taken from you even if your heath and wealth has been stolen. To construe its importance, reading can assist you in building a vast vocabulary, boasting your power of memory, and building vivid concepts of the book. Moreover, doing puzzles, playing chess and engaging your brain in mental activities can also immensely help strengthen your neuron network and keep your mentally young and vibrant forever. </i> </span>
+        <button class="btn btn-outline-primary" id="button4" onclick="read4()">Read
+            More</button>
+            
+
+    </p>
+    <hr>
+ </div>
+
+
+  <!-----Your post ends here---->
+
+
+
+                         <!--------Post starts here-->
+  <div class="post-image">
+    <div>
+        <img src="./cold shower.png" class="img" alt="blog2">
+    </div>
+    <div class="post-info flex-row">
+        <span>&nbsp;&nbsp;Posted by: Eman Shaikh </span>
+        <span>&nbsp;&nbsp;August 10,2020</span>
+        <!--<span>7 comments</span>-->
+    </div>
+</div>
+<div class="post-title">
+    <a href="#">Benefits of Cold Shower</a>
+    <p>
+        Point to ponder; your body demands cold shower, a therapy for well-being! Cold showers   <span id="dots3">...</span>
+        <span id="more3" style="display: none;">  are a substitute of hot cup of water taken early in the morning. Besides, the heaps of activated neurotransmitters incline your alertness rate, boast your mood, and improve your circulation (but not for someone with hypertension or cardiac diseases). To construe it up, cold showers help you with your workout routines,  relax and repair your muscles, eradicating the signs and symptoms of muscle sourness, declining the intensity of  pain. Additionally, in cold conditions, your body is likely to reduce weight rapidly. A plus point to mention, there is no risk of drying of sebum or weakening of hair overtime. Furthermore, giving your skin the glow, cold water helps the trunk in boasting immunity. To sum it up, cold shower is a catalyst for your physical and mental health.</i> </span>
+        <button class="btn btn-outline-primary" id="button3" onclick="read3()">Read
+            More</button>
+            
+
+    </p>
+    <hr>
+ </div>
+
+
+  <!-----Your post ends here---->
+
+                        
+
+
+
+
+
+                          <!--------Post starts here-->
+  <div class="post-image">
+    <div>
+        <img src="./busy pe.jpeg" class="img" alt="blog2">
+    </div>
+    <div class="post-info flex-row">
+        <span>&nbsp;&nbsp;Posted by: Eman Shaikh </span>
+        <span>&nbsp;&nbsp;August 7,2020</span>
+        <!--<span>7 comments</span>-->
+    </div>
+</div>
+<div class="post-title">
+    <a href="#">How Busy People Manage their Health?</a>
+    <p>
+        Majority of people are facing the issue to supervise their health due to reasons that vary in tones. Either, they face the time shortage or their fragile imbalanced  <span id="dots2">...</span>
+        <span id="more2" style="display: none;"> diet doesn’t help them to take care of their health. In order to cope up with such circumstances and to have a good health. Here are some of the top suggestions enlisted. No matter how busy you are, science has helped mankind in thousands of ways that are still taken for granted. To construe it up, there exists a rule of prioritizing your work. Firstly, accomplish your top three things mentioned in your to-do list. Secondly, take care about the outings you do. Make sure if enjoying a coffee with your friend is damn important rather working out. Still, if you can’t visit nearest gymnasium then ensure yourself to work-out at home. What it all takes is minimum ten minutes. Devoting four-four minutes to kettlebell exercises and abs work, and two minutes to squats and lunges are all what your body primarily needs. However, you can categorize these according to your most prioritized exercises that can heal you from stress. Activities like early morning walk, gardening, and swimming is the best criterion for your health. As far as healthy eating is concerned, be sure to cook in bulk so that they can be consumed 2-3 days if you are occupied. Tomatoes (good for your heart), spinach (good for your brain), blueberries (good for your cholesterol), salmon (good for weight loss) and pumpkin seeds (good for your memory) are all the required meals for your body fuels. Staying hydrated is yet, another plus point! </span>
+        <button class="btn btn-outline-primary" id="button2" onclick="read2()">Read
+            More</button>
+            
+
+    </p>
+    <hr>
+ </div>
+
+
+  <!-----Your post ends here---->
+
+
+                        <!--------Post starts here-->
+<div class="post-image">
+    <div>
+        <img src="./nails.jpeg" class="img" alt="blog2">
+    </div>
+    <div class="post-info flex-row">
+        <span>&nbsp;&nbsp;Posted by: Eman Shaikh </span>
+        <span>&nbsp;&nbsp;August 5,2020</span>
+        <!--<span>7 comments</span>-->
+    </div>
+</div>
+<div class="post-title">
+    <a href="#">What does your NAIL say?</a>
+    <p>
+        Nail is an alpha-keratinous plate found on the tip of fingers and toes. <span id="dots1">...</span>
+        <span id="more1" style="display: none;"> This horn-like structure called nail, if defected, can indicate signs of sickness in an individual. Through a nail, its shape, color and surface, a lot of knowledge about underlying health conditions can be discovered. Starting from the extreme positive end; healthy nails are always strong, flat and white or ivory-colored, and never flaky. However, thin pale nails result due to iron deficiency in the body. To construe it up, yellowish color in nails is a result of renal and gastrointestinal tract problems. Moreover, knobbly nails represent an infection in the body. Additionally, lack of zinc, copper and iodine can lead to white dots and streaks on the nails. Crumbling yellow or black nails occur due to fungal infection. Furthermore, brittle nails result from lack of iron and beta-carotene. Pitted nails can be a cause of skin disorder, psoriasis, eczema, or arthritis. Koilonychia is a spooning of nail resulting in raised ridges that can be due to lack of iron and so on.</span>
+        <button class="btn btn-outline-primary" id="button1" onclick="read1()">Read
+            More</button>
+            
+
+    </p>
+    <hr>
+ </div>
+
+
+  <!-----Your post ends here---->
+
+
+
+                        <!---------This section down needs to be duplicated for future posts. THIS IS POST 1-->
+                        <div class="post-image">
+                            <div>
+                                <img src="./bodybuilding.jpeg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span>&nbsp;&nbsp;Posted by: Eman Shaikh </span>
+                                <span>&nbsp;&nbsp;August 4,2020</span>
+
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Bodybuilding</a>
+                            <p>
+                                Bodybuilding started with the world’s strongest man, Prussian Eugen Sandow (1867- 1925), who developed musculature for aesthetic purposes. Bodybuilding increases the muscle-mass                              <span id="dots">...</span>
+                                <span id="more" style="display: none;"> , energizes the tissues, and modifies the muscle size and shape that is symmetrical and pleasing to the eye. This competitive activity makes bodybuilders to focus on hypertrophy, fat-loss and contest preparation. Bodybuilding is specialized for men and women according to their height, age, weight or body goal category. It comprises of ‘big three’ compound lifts – the squat, the bench, and the deadlift. Moreover, it signifies higher rep ranges for individual exercises, generally in 8-12 or 12-15 range are often performed in ‘superset’, where one exercise is immediately followed by another without a rest period. Cardio and diet also play a huge part in a bodybuilding program, as fat-loss and maintaining a lean physique are incredibly important. ȆSerious body building is a lifestyle requiring complete dedication, since what you eat and spend your time doing outside of the gym is equally important as the time you spend training!    
+                                </span>
+                                <button class="btn btn-outline-primary" id="button" onclick="read()">Read
+                                    More</button>
+
+                            </p>
+                            
+                        </div>
+                        <hr>
+                        <!-----Your post ends here-->
+
+
+                       
+                    </div>
+                    
+
+                </div>
+                <aside class="sidebar">
+                    <div class="category">
+                        <h2>Category</h2>
+                        <ul class="category-list">
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="100">
+                                <a href="./learning.html">Learning</a>
+                                <span>(00)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="./psychology.html">Psychology</a>
+                                <span>(00)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="./nutrition.html">Nutrition</a>
+                                <span>(00)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="./fashion.html">Fashion</a>
+                                <span>(00)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="./health.html">Health</a>
+                                <span>(00)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="./entertainment.html">Entertainment</a>
+                                <span>(00)</span>
+                            </li>
+
+
+                        </ul>
+                    </div>
+
+                    <div class="newsletter" data-aos="fade-up" data-aos-delay="300">
+                        <h2>Newsletter</h2>
+                        <div class="form-element">
+                            <input type="text" class="input-element" placeholder="Email">
+                            <button class="btn form-btn">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="popular-tags">
+                        <h2>Popular Tags</h2>
+                        <div class="tags">
+                            <span class="tag flex-row " data-aos="flip-up " data-aos-delay="100 ">News</span>
+                            <span class="tag flex-row " data-aos="flip-up " data-aos-delay="200 ">Media</span>
+                            <span class="tag flex-row " data-aos="flip-up " data-aos-delay="200 ">Nutrition</span>
+                            <span class="tag flex-row " data-aos="flip-up " data-aos-delay="100 ">Mental health</span>
+                            <span class="tag flex-row " data-aos="flip-up " data-aos-delay="200 ">Awareness</span>
+                            <span class="tag flex-row " data-aos="flip-up " data-aos-delay="200 ">Global events</span>
+                            <span class="tag flex-row " data-aos="flip-up " data-aos-delay="200 ">Learning</span>
+
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!--------------x------Site Content----------x-->
+
+    </main>
+
+
+    <!-----x-- Main Site Section---------x----->
+
+   <!---------Footer------------>
+
+    <footer class="footer ">
+        <div class="container ">
+            <div class="about-us " data-aos="fade-right " data-aos-delay="200 ">
+                <h2>About us</h2>
+                <p> Welcome to Wordophic! It is the brainchild of Adnan Khan and Eman Ahmad Shaikh which highlights different flavors of life. As far as its journey is concerned, Wordophic commenced when we identified the lack of space for writers and prosers
+                    in publishing industry. "I once tried to publish a magazine but didn 't know the publication process." -Eman Ahmad Shaikh. This idea popped up the next significant step of Wordophic in mind. It took some days in research to grow Pakistan's
+                    online ecosystem. Wordophic has dogged belief that the right to be published should not be fourwalled or limited upto certain writing topics but to be secular in writings. So the contents are written by our in-house team which showcases
+                    its work and beget healthy discussions. Wordophic also helps students master public writing signature, building self-esteem and learn about literature and narration. . </p>
+            </div>
+            <div class="instagram" data-aos="fade-left" data-aos-delay="200">
+                <h2>Instagram</h2>
+                <div class="flex-row">
+                    <img src="./blogpost1.jpg" alt="insta1">
+                    <img src="./miss_eman.png" alt="insta2">
+                    <img src="./photo-of-audi-parked-near-trees-1402787.jpg" alt="insta3">
+
+                </div>
+                <div class="flex-row">
+                    <img src="./blogpost2.jpg" alt="insta4">
+                    <img src="./blogpost5.jpg" alt="insta5">
+                    <img src="./blogpost6.jpg" alt="insta6">
+
+                </div>
+            </div>
+            <div class="follow" data-aos="fade-left" data-aos-delay="200">
+                <h2>Follow us</h2>
+                <p>Let us be social</p>
+                <div>
+                    <a href="https://instagram.com/3man_shaikh?igshid=eybw92nu29iu" target="_black"> Click Here to
+                        Follow Us on Instagram </a>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="rights flex-row">
+            <h4 class="text-gray"></h4>
+            Copyright ©2020 All rights reserved | made with love for Wordophic by &nbsp
+            <a href="https://instagram.com/adnankhan194?igshid=eybw92nu29iu" target="_black"> Adnan Khan </a>
+
+        </div>
+        <div class="move-up">
+            <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+        </div>
+
+
+        </div>
+
+    </footer>
+
+
+   <!------------x-----------Footer--------------x---->
+    <!--Jquery Library File-->
+    <script src="./Jquery3.5.1.min.js"></script>
+
+
+    <!-----------------Owl-Carousel js-------->
+    <script src="./owl.carousel.min.js"></script>
+
+    <!-------------------AOS js Library--------------->
+    <script src="./aos.js"></script>
+
+    <!--Custom Javascript-->
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
